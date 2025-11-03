@@ -1,0 +1,42 @@
+# Normalize line endings across OSes
+* text=auto
+
+# Force LF for source and text files
+*.cs text eol=lf
+*.shader text eol=lf
+*.cginc text eol=lf
+*.hlsl text eol=lf
+*.compute text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.xml text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+
+# Binary Unity files (never modify)
+*.meta binary
+*.unity binary
+*.prefab binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.tga binary
+*.fbx binary
+*.anim binary
+*.controller binary
+*.mat binary
+*.asset binary
+*.cubemap binary
+*.wav binary
+*.mp3 binary
+*.ogg binary
+
+# Ignore temporary/build folders
+[Ll]ibrary/** -text
+[Tt]emp/** -text
+[Oo]bj/** -text
+[Bb]uilds/** -text
+[Bb]uild/** -text
+UserSettings/** -text
+.vs/** -text
